@@ -1,11 +1,11 @@
 {
-  "name": "init-project-node",
+  "name": "exam-seekster-node",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www",
-    "up-models": "sequelize-auto -o './models' -d db_name -h 127.0.0.1 -u root -p 3306 -x  -e mysql"
+    "up-models": "sequelize-auto -o './models' -d exam_seekster_db -h 127.0.0.1 -u root -p 3306 -x  -e mysql"
   },
   "dependencies": {
     "axios": "^0.21.1",
